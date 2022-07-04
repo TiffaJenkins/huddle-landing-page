@@ -1,0 +1,233 @@
+/*------------------------------Backgrounds---------------------------------*/
+/*--------------------------------------------------------------------------*/
+/*--section 3+5 background--*/
+.section3-bg {
+    background-color: hsl(207, 100%, 98%);
+}
+.footer-bg {
+    background-color: hsl(192, 100%, 9%);
+}
+/*----------------------------Fonts and styles------------------------------*/
+/*--------------------------------------------------------------------------*/
+/*--header--*/
+.main-h1 {
+    font-family: 'poppins', sans-serif;
+}
+.main-p {
+    font-family: 'open sans', sans-serif;
+    color: hsl(191, 86%, 14%); 
+}
+/*--section2--*/
+.main-h2 {
+    font-family: 'open sans', sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+}
+@media (max-width: 576px) {
+    .main-h2 {
+        font-size: 58px;
+    }
+}
+.section2-p-font {
+    font-family: 'open sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: hsl(209, 10%, 52%);
+}
+@media (max-width: 576px) {
+    .section2-p-font {
+        font-size: 15px;
+    }
+}
+/*--section3+4+5--*/
+.section3-h3 {
+    font-family: 'poppins', sans-serif;
+    font-size: 32px;
+}
+@media (max-width:576px) {
+    .section3-h3 {
+        font-size: 20px;
+    }
+}
+.section3-p {
+    font-family: 'open sans', sans-serif;
+    font-size: 14px;
+    color: hsl(191, 93%, 17%);
+}
+/*--section6--*/
+.section6-h2 {
+    font-family: 'poppins', sans-serif;
+}
+/*--footer--*/
+.footer-h1 {
+    font-family: 'poppins', sans-serif;
+    color: rgb(233, 233, 252);
+}
+.footer-p-font {
+    font-family: 'open sans', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(233, 233, 252);
+    width: 50%;
+}
+@media (max-width: 576px) {
+    .footer-p-font {
+        width: 75%;
+    }
+}
+.footer-icon-font {
+    font-family: 'open sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(233, 233, 252);
+}
+.footer-h4 {
+    font-family: 'open sans', sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    color: rgb(233, 233, 252);
+}
+/*--footer input box--*/
+.footer-input {
+    width: 280px;
+    height: 40px;
+    border-radius: 6px;
+}
+@media (max-width: 576px) {
+    .footer-input {
+        width: 290px;
+        margin: 0 8% 0 8%;
+    }
+}
+@media (max-width: 300px) {
+    .footer-input {
+        width: 240px;
+        margin: 0 5% 0 5%;
+    }
+}
+/*--------------------------------Buttons-----------------------------------*/
+/*--------------------------------------------------------------------------*/
+.nav-button {
+    border: 2px solid hsl(321, 100%, 78%);
+    font-family: 'open sans', sans-serif;
+    font-weight: 400;
+    background-color: white;
+    color: hsl(321, 100%, 78%);
+}
+@media (max-width: 576px) {
+    .nav-button {
+        width: 80px;
+        height: 28px;
+        font-weight: 700;
+        font-size: 6px;
+    }
+}
+.main-button {
+    background-color: hsl(322, 100%, 66%);
+    font-family: 'open sans', sans-serif;
+    font-weight: 700;
+    color: white;
+    box-shadow: 0 5px 10px rgb(168, 168, 168);
+    padding: 16px 75px 16px 75px;
+}
+@media (max-width: 576px) {
+    .main-button {
+        padding: 14px 45px 14px 45px;
+    }
+}
+.footer-button {
+    background-color: hsl(322, 100%, 66%);
+    font-family: 'open sans', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    height: 39px;
+    width: 130px;
+    margin-left: 20px;
+    margin-top: -2px;
+    border: none;
+}
+@media (max-width: 576px) {
+    .footer-button {
+        margin-top: 10px;
+        margin-left: 185px;
+    }
+}
+@media (max-width: 300px) {
+    .footer-button {
+        width: 112px;
+        margin-left: 135px;
+    }
+}
+
+/*-----------------------------------margins---------------------------------*/
+/*---------------------------------------------------------------------------*/
+/*--section margins--*/
+.navbar-margin {
+    margin-bottom: 150px;
+}
+.header-margin {
+    margin-bottom: 80px;
+}
+.section1-margin {
+    margin-bottom: 80px;
+}
+.section2-margin {
+    margin-bottom: 80px;
+}
+.section3-margin { /*--this is also section 5 margin--*/
+    margin-bottom: 150px;
+}
+.section4-margin {
+    margin-bottom: 80px;
+}
+.section6-margin {
+    margin-bottom: 150px;
+}
+
+/*--icon margins--*/
+.icon-margin {
+    margin-right: 175px;
+}
+/*--icon mobile size--*/
+@media (max-width: 576px) {
+    .icon-margin {
+        width: 25px;
+        height: 25px;
+        margin-right: 125px;
+    }
+}
+
+/*---------------------------------br cancel----------------------------------*/
+/*----------------------------------------------------------------------------*/
+@media (max-width: 1000px) {
+    br {
+        display: none;
+    }
+}
+
+/*------------------------------footer icon color-----------------------------*/
+/*----------------------------------+ size------------------------------------*/
+.footer-huddle {
+    color: white;
+}
+.footer-icon-color {
+    color: white;
+    font-size: 29px;
+    margin-right: 15px;
+}
+@media (max-width: 576px) {
+    .footer-msg-icon {
+        width: 60px;
+        height: 45px;
+    } 
+}
+
+/*-----------------------------mobile huddle brand logo-----------------------------*/
+/*-----------------------------------------------------------------------------*/
+@media (max-width: 576px) {
+    .huddle-logo {
+        width: 100px;
+        height: 30px;
+    }
+}
